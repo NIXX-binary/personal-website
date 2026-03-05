@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkred;
+    color: #000;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo {
+    font-family: 'New Rocker', system-ui;
+    font-size: 24px;
+}
+.logo {
+    font-family: 'New Rocker', system-ui;
+    font-size: 28px;
+    color: #000;
+}
+
+
+.nav-links a {
+    font-family: 'New Rocker', system-ui;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    transition: color 0.3s ease, transform 0.2s ease;
+    display: inline-block;
+}
+
+.nav-links a:hover {
+    color: #ff3939;
+    transform: rotate(-5deg) scale(1.1);
+}
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 25px;    
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.nav-links a {
+    font-family: 'New Rocker', system-ui;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 60px;           
+    max-width: 1300px;
+    margin: 100px auto; 
+    padding: 0 40px;
+}
+
+
+.hero-img img {
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 8px solid black;
+}
+
+
+.hero-text {
+    text-align: left; 
+}
+
+.hero-text h1 {
+    font-family: 'New Rocker', system-ui;
+    font-size: 85px;    
+    color: #000;         
+    line-height: 1;
+    margin-bottom: 5px;
+}
+
+.hero-text h2 {
+    font-family: 'New Rocker', system-ui;
+    font-size: 38px;
+    color: #1a0000;
+}
+.img-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 550px;  /* Larger than the profile image to show the paint */
+    height: 550px;
+    /* Path to your spray paint image */
+    background-image: url('spray paint.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center 60px;
+}
+
+.img-wrapper img {
+    width: 320px;   /* Your actual profile image size */
+    height: 320px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid black;
+    z-index: 2;     /* Ensures the photo stays on top of the paint */
+}
