@@ -109,9 +109,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 550px;  /* Larger than the profile image to show the paint */
+    width: 550px;  
     height: 550px;
-    /* Path to your spray paint image */
     background-image: url('spray paint.png'); 
     background-size: contain;
     background-repeat: no-repeat;
@@ -119,10 +118,11 @@ body {
 }
 
 .img-wrapper img {
-    width: 320px;   /* Your actual profile image size */
+    width: 320px;  
     height: 320px;
     border-radius: 50%;
     object-fit: cover;
     border: 5px solid black;
-    z-index: 2;     /* Ensures the photo stays on top of the paint */
+    z-index: 2;     
+
 }
